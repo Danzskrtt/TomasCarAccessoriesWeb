@@ -1,0 +1,30 @@
+{
+  "name": "tomas-car-accessories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "test": "node --check server.js && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "helmet": "^8.3.0",
+    "nodemailer": "^10.0.0",
+    "pg": "^8.23.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^8.2.2"
+  }
+}
